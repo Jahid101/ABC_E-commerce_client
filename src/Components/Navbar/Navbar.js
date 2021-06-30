@@ -8,15 +8,10 @@ const Navbar = () => {
     return (
         <div style={{ backgroundColor: 'orange' }}>
             <NavbarTop></NavbarTop>
-<hr />
+            <hr />
+            
             <nav class="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: 'orange' }}>
                 <div class="container-fluid">
-
-                    <h1>
-                        <Link class="navbar-brand" style={{ fontSize: '30px' }} to="/">
-                            Abc E-commerce
-                        </Link>
-                    </h1>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -43,6 +38,10 @@ const Navbar = () => {
                                     Disabled
                                 </Link>
                             </li>
+                        </ul>
+                        <ul className="navbar-nav">
+                            <li>asdf</li>
+                            <li>asdf</li>
                         </ul>
                     </div>
                 </div>
