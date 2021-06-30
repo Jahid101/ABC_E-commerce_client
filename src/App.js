@@ -7,6 +7,8 @@ import {
 import { createContext, useState } from 'react';
 import Error from './Components/Error/Error';
 import Navbar from './Components/Navbar/Navbar';
+import HomeMain from './Components/Homepage/HomeMain/HomeMain';
+
 
 
 export const UserContext = createContext();
@@ -22,7 +24,7 @@ function App() {
         <Navbar></Navbar>
         <Switch>
           <Route exact path="/">
-
+            <HomeMain></HomeMain>
           </Route>
           <Route path="/home">
 

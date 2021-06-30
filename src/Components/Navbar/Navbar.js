@@ -9,9 +9,15 @@ const Navbar = () => {
         <div style={{ backgroundColor: 'orange' }}>
             <NavbarTop></NavbarTop>
             <hr />
-            
-            <nav class="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: 'orange' }}>
+
+            <nav class="navbar navbar-expand-lg navbar-light p-2" style={{ backgroundColor: 'orange' }}>
                 <div class="container-fluid">
+
+                    <Link class="navbar-brand d-flex justify-content-center" to="/">
+                        <h5>
+                            <span className="text-dark">Shop by Department</span>
+                        </h5>
+                    </Link>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -25,7 +31,7 @@ const Navbar = () => {
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link active" to="#">
-                                    Features
+                                    Pages
                                 </Link>
                             </li>
                             <li class="nav-item">
@@ -39,10 +45,16 @@ const Navbar = () => {
                                 </Link>
                             </li>
                         </ul>
+
                         <ul className="navbar-nav">
-                            <li>asdf</li>
-                            <li>asdf</li>
+                            <hr />
+                            <li class="nav-item">
+                                <Link class="nav-link active" to="#">
+                                    Track your order
+                                </Link>
+                            </li>
                         </ul>
+
                     </div>
                 </div>
             </nav>
